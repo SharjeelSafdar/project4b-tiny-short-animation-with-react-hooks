@@ -4,3 +4,4 @@ export { default as IntroBrain } from './3_Intro_Brain.svg';
 export { default as service1 } from './4_services-6.svg';
 export { default as service2 } from './5_services-7.svg';
 export { default as service3 } from './6_services-5.svg';
+export { default as avatar } from './7_about.gif';
