@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, FeaturedImage } from './components/components';
+import { NavBar, FeaturedImage, Services } from './components/components';
 import './App.module.css';
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <NavBar />
       <FeaturedImage />
+      <Services />
     </div>
   );
 }
