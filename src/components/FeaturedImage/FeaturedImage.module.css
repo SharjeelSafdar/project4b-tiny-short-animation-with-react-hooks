@@ -1,0 +1,94 @@
+.container {
+    background: linear-gradient(to right, rgb(76,6,193), rgb(205,2,189));
+    display: grid;
+    width: 100vw;
+    grid-template-columns: 45vw 55vw;
+}
+
+.leftContainer {
+    margin: 7rem;
+    width: minmax(auto, 50vw);
+}
+
+.rightContainer {
+    padding: 3rem 0 0 0;
+    width: 50vw;
+    height: 45vw;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.heading1 {
+    margin-bottom: 0 !important;
+}
+
+.heading2 {
+    margin-top: -5px !important	;
+    margin-bottom: 50px !important;
+}
+
+.chatBtn {
+    padding: 10px 30px;
+    margin: 50px 0;
+    border-radius: 25px;
+    border: hidden;
+    background: linear-gradient(to bottom, cyan, rgb(0, 134, 134));
+}
+
+.featuredImage {
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.frontLayer {
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+.introBrain {
+    height: 100%;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        background: linear-gradient(to bottom, rgb(205,2,189), rgb(76,6,193));
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightContainer {
+        grid-row: 1;
+        width: 80vw;
+        height: 60vw;
+    }
+    .leftContainer {
+        justify-self: center;
+        text-align: center;
+        grid-row: 2;
+        margin: 0 8%;
+        width: auto;
+    }
+}
+
+@media (max-width: 668px) {
+    .heading1 {
+        font-size: 4.5rem !important;
+    }
+    
+    .heading2 {
+        font-size: 2.5rem !important;
+    }
+}

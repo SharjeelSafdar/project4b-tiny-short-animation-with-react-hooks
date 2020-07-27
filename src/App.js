@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import { NavBar, FeaturedImage } from './components/components';
+import './App.module.css';
 
 function App() {
   return (
     <div className="App">
-      Hello, World!
+      <NavBar />
+      <FeaturedImage />
     </div>
   );
 }
