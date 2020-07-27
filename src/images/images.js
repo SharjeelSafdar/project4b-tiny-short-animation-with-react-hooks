@@ -5,3 +5,8 @@ export { default as service1 } from './4_services-6.svg';
 export { default as service2 } from './5_services-7.svg';
 export { default as service3 } from './6_services-5.svg';
 export { default as avatar } from './7_about.gif';
+export { default as communityAvatar } from './8_community.gif';
+export { default as corporateAvatar } from './9_corporate.gif';
+export { default as technologyAvatar } from './10_technology.gif';
+export { default as luxuryAvatar } from './11_luxury.gif';
+export { default as entertainmentAvatar } from './12_entertainment.gif';
