@@ -43,6 +43,7 @@
     grid-row: 1;
     justify-self: center;
     align-self: center;
+    pointer-events: none;
 }
 
 .frontLayer {
@@ -51,6 +52,7 @@
     grid-row: 1;
     justify-self: center;
     align-self: center;
+    pointer-events: none;
 }
 
 .introBrain {
@@ -59,6 +61,7 @@
     grid-row: 1;
     justify-self: center;
     align-self: center;
+    pointer-events: none;
 }
 
 @media (max-width: 1050px) {
