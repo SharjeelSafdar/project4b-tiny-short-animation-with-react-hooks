@@ -25,16 +25,6 @@
     max-width: 100%;
     z-index: 1;
 }
-::-webkit-scrollbar {
-    width: 3px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #702ca1;
-    border-radius: 3px;
-}
-::-webkit-scrollbar-track {
-    width: 3px;
-}
 
 .avatarBox {
     cursor: pointer;
