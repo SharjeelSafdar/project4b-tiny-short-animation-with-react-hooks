@@ -1,6 +1,6 @@
 ## Project 4B: Tiny Short Animation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was created for submission in Pana Cloud Bootcamp 2020.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It was created for submission in Pana Cloud Bootcamp 2020. The project is a React replica of an [existing website](https://www.cortexcopywriter.com/index.html#). The purpose of replicating an existing website is purely learning.
 
 ### Link to Web App
 
