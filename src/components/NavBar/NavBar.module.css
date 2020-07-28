@@ -9,7 +9,7 @@
     align-items: center;
     box-shadow: 0 0 25px black;
     z-index: 1;
-    position: relative;
+    position: fixed;
 }
 
 .charP { color: #A800ff, ; }
