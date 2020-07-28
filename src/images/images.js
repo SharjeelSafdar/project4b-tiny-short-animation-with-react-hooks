@@ -31,3 +31,8 @@ export { default as avatar3 } from './31_persona-6.svg';
 export { default as avatar4 } from './32_persona-4.svg';
 export { default as avatar5 } from './33_persona-5.svg';
 export { default as avatar6 } from './34_persona-3.svg';
+export { default as waving1 } from './35_community_waving.gif';
+export { default as waving2 } from './36_corporate_waving.gif';
+export { default as waving3 } from './37_technology_waving.gif';
+export { default as waving4 } from './38_luxury_waving.gif';
+export { default as waving5 } from './39_entertainment_waving.gif';
