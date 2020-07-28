@@ -14,7 +14,7 @@ const CaseStudies = () => {
         <div className={styles.container}>
             <div className={styles.title}>
                 <Typography variant="h5" style={{ color: '#ffffff' }}>
-                    Samples
+                    Case Studies
                 </Typography>
             </div>
 
