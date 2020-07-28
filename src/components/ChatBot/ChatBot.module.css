@@ -22,14 +22,18 @@
     padding: 20px;
     overflow-x: auto;
     overflow-y: visible;
+    max-width: 100%;
     z-index: 1;
 }
 ::-webkit-scrollbar {
-    width: 5px;
+    width: 3px;
 }
 ::-webkit-scrollbar-thumb {
-    background-color: whitesmoke;
+    background-color: #702ca1;
     border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+    width: 3px;
 }
 
 .avatarBox {
