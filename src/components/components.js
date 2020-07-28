@@ -7,3 +7,4 @@ export { default as Samples } from './Samples/Samples';
 export { default as CaseStudies } from './CaseStudies/CaseStudies';
 export { default as Blogs } from './Blogs/Blogs';
 export { default as Reviews } from './Reviews/Reviews';
+export { default as Contact } from './Contact/Contact';
