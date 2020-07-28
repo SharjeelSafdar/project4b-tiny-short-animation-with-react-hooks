@@ -21,3 +21,7 @@ export { default as sample7 } from './21_rayvonsnest_sample.jpg';
 export { default as caseStudy1 } from './22_blog_stock-10.jpg';
 export { default as caseStudy2 } from './23_blog_stock-5.jpg';
 export { default as caseStudy3 } from './24_blog_stock-6.jpg';
+export { default as blog1 } from './25_blog_stock-1.jpg';
+export { default as blog2 } from './26_blog_stock-0.jpg';
+export { default as blog3 } from './27_blog_stock-4.jpg';
+export { default as blog4 } from './28_blog_stock-7.jpg';
