@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavBar, FeaturedImage, Services, About, ChatBot, Samples } from './components/components';
+import { NavBar, FeaturedImage, Services, About, ChatBot, Samples, CaseStudies } from './components/components';
 import './App.module.css';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
       <About />
       <ChatBot />
       <Samples />
+      <CaseStudies />
     </div>
   );
 }

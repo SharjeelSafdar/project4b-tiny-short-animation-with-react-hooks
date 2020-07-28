@@ -18,3 +18,6 @@ export { default as sample4 } from './18_tara.jpg';
 export { default as sample5 } from './19_purelearning_sample.jpg';
 export { default as sample6 } from './20_adgroove_sample.jpg';
 export { default as sample7 } from './21_rayvonsnest_sample.jpg';
+export { default as caseStudy1 } from './22_blog_stock-10.jpg';
+export { default as caseStudy2 } from './23_blog_stock-5.jpg';
+export { default as caseStudy3 } from './24_blog_stock-6.jpg';
