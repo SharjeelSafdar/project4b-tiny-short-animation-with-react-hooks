@@ -1,20 +1,21 @@
 .container {
     background: linear-gradient(to right, rgb(76,6,193), rgb(205,2,189));
+    padding: 9rem 0;
     display: grid;
-    width: 100vw;
-    grid-template-columns: 45vw 55vw;
+    width: 100%;
+    grid-template-columns: 2fr 8fr 12fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .leftContainer {
-    margin: 7rem;
-    width: minmax(auto, 50vw);
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .rightContainer {
-    padding: 3rem 0 0 0;
-    width: 50vw;
-    height: 45vw;
     justify-self: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -71,20 +72,17 @@
 @media (max-width: 1050px) {
     .container {
         background: linear-gradient(to bottom, rgb(205,2,189), rgb(76,6,193));
+        padding: 7rem 0;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
     }
     .rightContainer {
-        grid-row: 1;
-        width: 80vw;
-        height: 60vw;
+        height: 80vw;
     }
     .leftContainer {
-        justify-self: center;
         text-align: center;
-        grid-row: 2;
         margin: 0 8%;
         width: auto;
     }
